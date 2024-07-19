@@ -23,6 +23,10 @@ function App() {
       [category]: prevLists[category].filter((_, i) => i !== index)
     }));
   };
+  
+  
+
+
 
   return (
     <div className="App">
@@ -31,8 +35,9 @@ function App() {
         <ul className='ul'>
           <li><a href="home.jsx">Home</a></li>
           <li><a href="to-do.jsx">To-Do-Lists</a></li>
-          <li><a href="mediation.jsx">Meditation</a></li>
+          <li><a href="mediation-app">Meditation</a></li>
           <li><a href="calendar.jsx">Calendar</a></li>
+          
         </ul>
 
       </nav>

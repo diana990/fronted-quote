@@ -128,3 +128,12 @@ a:hover{
 li{
   float: left;
 }
+
+.chg{
+  width: 100%;
+  margin-top: 0px;
+  margin-right: 0px;
+  display: flex;
+  justify-content: center;
+}
+
