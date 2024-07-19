@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './App.css';
 
+
+
 function App() {
   const [lists, setLists] = useState({
     study: [],
@@ -24,6 +26,16 @@ function App() {
 
   return (
     <div className="App">
+      
+      <nav className='navbar'>
+        <ul className='ul'>
+          <li><a href="home.jsx">Home</a></li>
+          <li><a href="to-do.jsx">To-Do-Lists</a></li>
+          <li><a href="mediation.jsx">Meditation</a></li>
+          <li><a href="calendar.jsx">Calendar</a></li>
+        </ul>
+
+      </nav>
       
       <div className="lists">
         <div className="list">
@@ -94,6 +106,8 @@ function App() {
       <div className='calendar'>
         <h2>Daily Quote</h2>
       </div>
+
+
       <div id="meditation" className='meditation'>
             <h3>Meditation for Concentration</h3>
             <button className='medBTN'>Start Meditation</button>
@@ -111,4 +125,4 @@ function App() {
   );
 }
 
-export default App;
+export default App; 
